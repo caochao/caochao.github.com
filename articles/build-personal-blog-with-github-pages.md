@@ -12,7 +12,7 @@
 	2. 提交内容到本地仓库git commit -m 'commit my blog'
 	3. 关联远程仓库git remote add origin git@github.com:caochao/blog.git
 	4. 推送本地内容至远程仓库git push -u origin gh-pages
-6.访问博客http://caochao.github.com/blog/
+6. 访问博客http://caochao.github.com/blog/
 
 ##二.利用usr/organization pages创建个人博客
 1. 在github上创建名为caochao.github.com的仓库
