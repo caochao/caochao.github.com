@@ -4,7 +4,7 @@
         <title>caochao's rss</title>
         <link>http://caochao.github.io/blog/</link>
         <description>在rss订阅我</description>
-        <lastBuildDate>Tue, 20 Aug 2013 16:10:46 +0800</lastBuildDate>
+        <lastBuildDate>Tue, 20 Aug 2013 16:42:26 +0800</lastBuildDate>
         <language>zh-cn</language>
         
         <item> 
@@ -41,6 +41,15 @@
             <author>caochao88@gmail.com caochao</author> 
             <pubDate>Thu, 15 Aug 2013 00:00:00 +0800</pubDate> 
             <description>个人博客之评论框折腾记</description> 
+        </item> 
+        
+        <item> 
+            <title>利用github pages创建个人博客</title> 
+            <link>http://caochao.github.io/blog//articles/build-personal-blog-with-github-pages.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link> 
+            <guid>http://caochao.github.io/blog//articles/build-personal-blog-with-github-pages.html</guid> 
+            <author>caochao88@gmail.com caochao</author> 
+            <pubDate>Tue, 20 Aug 2013 00:00:00 +0800</pubDate> 
+            <description>介绍利用github user/organization page或者project page创建个人静态博客的方法</description> 
         </item> 
         
     </channel>

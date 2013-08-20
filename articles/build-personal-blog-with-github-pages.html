@@ -7,7 +7,7 @@
         <meta name="keywords" content="宋词,苏轼,代码,数学公式,科技,数码,博客,个人日志,github"/>
         <meta name="author" content="caochao"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-        <title>caochao's blog - 江城子
+        <title>caochao's blog - 利用github pages创建个人博客
 </title>
         <link rel="stylesheet" href="/assets/vendor/normalize.css"/>
         <link rel="stylesheet" href="/assets/vendor/prettify.css"/>
@@ -43,26 +43,44 @@
             <div style="clear:both;"></div>
         </div>
         <div id="article-title">
-            <a href="first-post.html">江城子</a>
+            <a href="build-personal-blog-with-github-pages.html">利用github pages创建个人博客</a>
         </div>
         <div id="article-meta">
-            作者 苏轼 | 发布于 2013-01-02
+            作者 caochao | 发布于 2013-08-20
         </div>
         <div id="article-tags">
         
-        <a class="tag" href="/tag.html#宋词">宋词</a>
+        <a class="tag" href="/tag.html#博客">博客</a>
         
-        <a class="tag" href="/tag.html#苏轼">苏轼</a>
+        <a class="tag" href="/tag.html#个人日志">个人日志</a>
+        
+        <a class="tag" href="/tag.html#github">github</a>
         
         </div>
         <div id="article-content">
-            <h1>江城子</h1>
-<p>十年生死两茫茫，不思量，自难忘。</p>
-<p>千里孤坟，无处话凄凉。</p>
-<p>纵使相逢应不识，尘满面，鬓如霜。</p>
-<p>夜来幽梦忽还乡。小轩窗，正梳妆。</p>
-<p>相顾无言，惟有泪千行。</p>
-<p>料得年年肠断处：明月夜，短松冈。</p>
+            <h1>利用github创建个人博客的两种方式：</h1>
+<p>参见官方说明<a href="https://help.github.com/articles/user-organization-and-project-pages" title="github pages">github pages</a></p>
+<h2>一.利用project pages创建个人博客</h2>
+<ol>
+<li>在github创建仓库，例如blog</li>
+<li>在本机搭建博客目录及内容，例如目录blog</li>
+<li>在本地目录blog中git init</li>
+<li>使用语句git checkout --orphan gh-pages创建,gh-pages分支内容作为网站内容</li>
+<li>发布内容，将分支内容发布到远程仓库blog中，具体步骤如下：<ol>
+<li>添加所有内容至版本控制git add .</li>
+<li>提交内容到本地仓库git commit -m &#39;commit my blog&#39;</li>
+<li>关联远程仓库git remote add origin git@github.com:caochao/blog.git</li>
+<li>推送本地内容至远程仓库git push -u origin gh-pages
+6.访问博客<a href="http://caochao.github.com/blog/">http://caochao.github.com/blog/</a></li>
+</ol>
+</li>
+</ol>
+<h2>二.利用usr/organization pages创建个人博客</h2>
+<ol>
+<li>在github上创建名为caochao.github.com的仓库</li>
+<li>master分支内容作为网站内容</li>
+<li>访问博客<a href="http://caochao.github.com">http://caochao.github.com</a></li>
+</ol>
 
         </div>
         <!-- Duoshuo Comment BEGIN -->

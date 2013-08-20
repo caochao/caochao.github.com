@@ -33,3 +33,13 @@
     - 博客
     - 个人日志
   abstract: 个人博客之评论框折腾记
+
+- id: build-personal-blog-with-github-pages
+  title: 利用github pages创建个人博客
+  postedOn: !!str 2013-08-20
+  author: caochao
+  tags: 
+    - 博客
+    - 个人日志
+    - github
+  abstract: 介绍利用github user/organization page或者project page创建个人静态博客的方法
