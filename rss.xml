@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>caochao's rss</title>
+        <link>http://caochao.github.io/blog/</link>
+        <description>在rss订阅我</description>
+        <lastBuildDate>Tue, 20 Aug 2013 15:58:48 +0800</lastBuildDate>
+        <language>zh-cn</language>
+        
+        <item> 
+            <title>江城子</title> 
+            <link>http://caochao.github.io/blog//articles/first-post.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link> 
+            <guid>http://caochao.github.io/blog//articles/first-post.html</guid> 
+            <author>caochao88@gmail.com caochao</author> 
+            <pubDate>Wed, 02 Jan 2013 00:00:00 +0800</pubDate> 
+            <description>十年生死两茫茫，不思量，自难忘。千里孤坟，无处话凄凉。纵使相逢应不识，尘满面，鬓如霜。夜来幽梦忽还乡。小轩窗，正梳妆。相顾无言，惟有泪千行。料得年年肠断处：明月夜，短松冈。</description> 
+        </item> 
+        
+        <item> 
+            <title>代码及数学公式示例</title> 
+            <link>http://caochao.github.io/blog//articles/second-post.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link> 
+            <guid>http://caochao.github.io/blog//articles/second-post.html</guid> 
+            <author>caochao88@gmail.com caochao</author> 
+            <pubDate>Tue, 01 Jan 2013 00:00:00 +0800</pubDate> 
+            <description>这篇文章展示了如何在papery中使用代码和数学公式。</description> 
+        </item> 
+        
+        <item> 
+            <title>数码相机的未来：网络和智能是发展方向</title> 
+            <link>http://caochao.github.io/blog//articles/future-of-digit-camera.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link> 
+            <guid>http://caochao.github.io/blog//articles/future-of-digit-camera.html</guid> 
+            <author>caochao88@gmail.com caochao</author> 
+            <pubDate>Tue, 13 Aug 2013 00:00:00 +0800</pubDate> 
+            <description>相对其他数码产品来说，数码相机的局限性更高一些，因为无论外形设计怎么变化，基本上都无法跳脱出相机的本质。</description> 
+        </item> 
+        
+        <item> 
+            <title>个人博客手记</title> 
+            <link>http://caochao.github.io/blog//articles/diary-of-personal-blog.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link> 
+            <guid>http://caochao.github.io/blog//articles/diary-of-personal-blog.html</guid> 
+            <author>caochao88@gmail.com caochao</author> 
+            <pubDate>Thu, 15 Aug 2013 00:00:00 +0800</pubDate> 
+            <description>个人博客之评论框折腾记</description> 
+        </item> 
+        
+    </channel>
+</rss>

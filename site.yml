@@ -1,0 +1,25 @@
+title: caochao's blog
+subtitle: 零散的一些记录
+link: http://caochao.github.io/blog/
+meta:
+  description: caochao's blog-powerd by github pages
+  keywords: !!seq
+    - github pages
+    - caochao
+    - github blog
+  author: caochao
+master:
+  name: caochao
+  about: web
+  email: caochao88@gmail.com
+rss:
+  title: caochao's rss
+  desc: 在rss订阅我
+  lang: zh-cn
+  max: 10
+copyright:
+  owner: caochao
+  beginYear: 2013
+  endYear: 2013
+  ICP: USA-001
+theme: default
