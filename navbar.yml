@@ -1,3 +1,11 @@
+- label: 首页
+  href: /
+  target: _self
+
+- label: 标签
+  href: /tag.html
+  target: _self
+
 - label: 关于我
   href: /pages/about-me.html
   target: _self

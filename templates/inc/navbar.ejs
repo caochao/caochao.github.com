@@ -1,4 +1,8 @@
-<% navbar.forEach(function (nav) { %>
-<li class="sep"> | </li>
-<li><a href="<%= nav.href %>" target="<%= nav.target %>"><%= nav.label %></a></li>
-<% }) %>
+<ul>
+	<% navbar.forEach(function (nav,index,dd) { %>
+	<% if(index != 0) { %>
+	<li class="sep"> | <%=index%>|<%=dd%></li>
+	<% } %>
+	<li><a href="<%= nav.href %>" target="<%= nav.target %>"><%= nav.label %></a></li>
+	<% }) %>
+</ul>
