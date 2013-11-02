@@ -1,0 +1,91 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<script type='text/javascript' src='http://code.jquery.com/jquery-latest.min.js'></script>
+		<style>
+			#main{width:720px;margin: 0 auto;}
+			#logo{width:270;margin: 0 auto;}
+			#nv{padding-left: 140px;}
+			#nv a{margin-right:5px}
+			#fm{width:474px;margin:0 auto;padding-left:33px;}
+			#wd{
+				width:474;height:30px;line-height:30px;
+				background: url(http://su.bdimg.com/static/superpage/img/spis_9762e054.png) no-repeat #fff;
+			}
+			ul{margin:0;padding:2px;border:1px solid #817F82;list-style:none}
+			ul li{padding:4px;height:18px;}
+
+			.over{background-color:#ccc}
+		</style>
+	</head>
+	<body>
+		<div id='main'>
+			<p id='logo'>
+				<img style='margin:0 auto' src="http://www.baidu.com/img/bdlogo.gif" width="270" height="129">
+			</p>
+			<p id="nv">
+				<a href="http://news.baidu.com">新闻</a><b>网页</b>
+				<a href="http://tieba.baidu.com">贴吧</a>
+				<a href="http://zhidao.baidu.com">知道</a>
+				<a href="http://music.baidu.com">音乐</a>
+				<a href="http://image.baidu.com">图片</a>
+				<a href="http://v.baidu.com">视频</a>
+				<a href="http://map.baidu.com">地图</a>
+				<a href="http://baike.baidu.com">百科</a>
+				<a href="http://wenku.baidu.com">文库</a>
+				<a style="font-family: \5b8b\4f53;" href="http://www.baidu.com/more/">更多&gt;&gt;</a>
+			</p>
+			<div id='fm'>
+				<input type='text' id='wd' name='keyword'/>
+				<ul id='suggestion' style='display:none;'>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script type='text/javascript'>
+		$(document).ready(function(){
+			$('#wd').bind('change',function(){
+				request($(this).val())
+			});
+
+			$('#suggestion li').hover(
+				function(){
+					$(this).addClass('over');
+					console.log('over');
+				},function(){
+					$(this).removeClass('over');
+					console.log('out');
+				}
+			);
+		});
+
+		function request(keyword)
+		{
+			var script = document.createElement('script');
+			script.id = 'req';
+			script.type = 'text/javascript';
+			script.src = 'http://suggestion.baidu.com/su?wd='+ keyword +'&p=3&cb=appendRelatedWord';
+			
+			var old = document.getElementById('req');
+			old && document.body.removeChild(old);
+			document.body.appendChild(script);
+		}
+
+		function appendRelatedWord(data)
+		{
+			var relatedList = data.s;
+			var len = relatedList.length;
+			if(len > 0)
+			{
+				$('#suggestion').html('').show();
+			}
+			else
+			{
+				$('#suggestion').html('没有找到搜索结果').show();
+			}
+			for(var i = 0; i < len; i++)
+			{
+				$('#suggestion').append('<li>'+ data.s[i] +'</li>')
+			}
+		}
+	</script>
+</html>
