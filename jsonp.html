@@ -44,7 +44,7 @@
 	</body>
 	<script type='text/javascript'>
 		$(document).ready(function(){
-			$('#wd').bind('change',function(){
+			$('#wd').bind('change keyup mousedown',function(){
 				request($(this).val())
 			});
 
